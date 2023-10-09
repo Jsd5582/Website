@@ -5,7 +5,8 @@
 body {
   font-family: OCR A Std, monospace	;
   padding: 10px;
-  background: linear-gradient(-35deg,#334d8ff0, #050561);
+  background: linear-gradient(-35deg,#334d8ff0, #047469);
+  color: #f2f2f2;
 }
 
 /* Header/Blog Title */
@@ -19,12 +20,17 @@ body {
   font-size: 50px;
 }
 
+/* Logo */
+.Logo{
+  max-width: 10%;
+  max-height: 10%;
+}
 
 /* Create two unequal columns that floats next to each other */
 /* Left column */
 .leftcolumn {   
   float: left;
-  width: 50%;
+  width: 40%;
   text-align: center;
   display: block;
 }
@@ -49,17 +55,20 @@ body {
   position: relative;
 }
 
+
 .Sections a:hover{
   color: white;
   transform: translate(50px);
+
 }
 
 /* Right column */
 .rightcolumn {
   float: left;
-  width: 50%;
+  width: 60%;
   padding-left: 20px;
 }
+
 
 /* Fake image */
 .fakeimg {
@@ -72,6 +81,11 @@ body {
 .card {
   padding: 20px;
   margin-top: 20px;
+}
+
+.card a{
+  text-decoration: none;
+  color: gold;
 }
 
 /* Clear floats after the columns */
