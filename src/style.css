@@ -9,6 +9,26 @@ body {
   color: #f2f2f2;
 }
 
+/*Top Nav for the experience page*/
+.topNavEXP {
+  overflow: hidden;
+}
+
+.topNavEXP a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topNavEXP a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
 /* Header/Blog Title */
 .header {
   padding: 30px;
@@ -69,13 +89,6 @@ body {
   padding-left: 20px;
 }
 
-
-/* Fake image */
-.fakeimg {
-  background-color: #aaa;
-  width: 100%;
-  padding: 20px;
-}
 
 /* Add a card effect for articles */
 .card {
