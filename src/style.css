@@ -78,6 +78,7 @@ body {
   border-style: solid;
   margin-left: 2%;
   padding: 1%;
+  border-radius: 30px;
 }
 
 .Atlas_Air {
@@ -111,6 +112,17 @@ body {
 /* Logo */
 .Logo{
   max-width: 10%;
+  max-height: 10%;
+}
+
+.Logo_GM{
+  max-width: 10%;
+  max-height: 10%;
+}
+
+
+.Logo_Atlas{
+  max-width: 15%;
   max-height: 10%;
 }
 
