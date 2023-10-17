@@ -29,6 +29,47 @@ body {
 }
 
 
+.Classes{
+  list-style-type: none;
+  margin: 100;
+  padding: 200;
+  width: 200px;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.Classes a{
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align:center;
+  padding: 14px 16px;
+  text-decoration: none;
+  position: relative;
+}
+
+.Classes a:hover{
+  color: white;
+  transform: translate(50px);
+
+}
+
+.General_Motors {
+  padding: 20px;
+  margin-top: 20px;
+  border: #000;
+  border-style: solid;
+}
+
+.Atlas_Air {
+  padding: 20px;
+  margin-top: 20px;
+  border: #000;
+  border-style: solid;
+}
+
+
 /* Header/Blog Title */
 .header {
   padding: 30px;
