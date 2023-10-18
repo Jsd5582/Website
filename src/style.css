@@ -98,6 +98,29 @@ body {
 }
 
 
+/*Cards for relevant courses*/
+.leftcolumnED {   
+  float: left;
+  width: 20%;
+  text-align: center;
+  display: block;
+}
+
+
+.rightcolumnED {
+  float: left;
+  width: 80%;
+  padding-left: 20px;
+}
+
+.Class_info {
+  padding: 20px;
+  margin-top: 20px;
+  border-style: solid;
+  background-color: rgb(136, 154, 193);
+  color: black;
+}
+
 /* Header/Blog Title */
 .header {
   padding: 30px;
