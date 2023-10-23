@@ -6,6 +6,7 @@ body {
   font-family: OCR A Std, monospace	;
   padding: 10px;
   background: linear-gradient(-35deg,#334d8ff0, #047469);
+  height: 100vh;
   color: #f2f2f2;
 }
 
